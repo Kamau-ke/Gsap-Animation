@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:10rem ;
+    width: 20rem;
+    background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+button{
+    border-style: none;
+    padding: 0.5rem 1rem;
+    color: #4f2626;
+    margin-top: .3rem;
+    border-radius: .3rem;
+}
